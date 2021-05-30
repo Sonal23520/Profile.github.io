@@ -1,0 +1,100 @@
+#order {
+  height: 100vh;
+}
+#orderdetails {
+  /* border: 1px solid red; */
+  width: 98%;
+  background: white;
+  border-radius: 10px;
+}
+#cutomerorderdetails > div {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#itemorderdetails > div {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#orderQty {
+  /* border: 1px solid red; */
+}
+#orderQty > div {
+  /* border: 1px solid red; */
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#orderQty > button {
+  /* border: 1px solid red; */
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#payment {
+  width: 98%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  /* border: 1px solid red; */
+}
+#payment > div {
+  height: 49vh;
+  /* border: 1px solid rgb(4, 0, 255); */
+}
+#payment > div > div {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+#ordercard {
+  backdrop-filter: blur(100px);
+  border: 1px solid rgb(128, 128, 128, 0.6);
+  border-radius: 10px;
+}
+#discount input {
+  width: 220px;
+}
+#orderlabel {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background: rgb(6, 22, 58, 0.6);
+}
+#customerlabel {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background: rgb(6, 22, 58, 0.6);
+}
+#itemlabel {
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background: rgb(6, 22, 58, 0.6);
+}
+/* ////////////////// */
+#Ordertable {
+  border-radius: 10px;
+  width: 98%;
+  background: white;
+  height: 46.5vh;
+  border: 1px solid rgb(128, 128, 128, 0.6);
+}
+#Ordertable::-webkit-scrollbar {
+  border-radius: 6px;
+  width: 8px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+#Ordertable::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: gray;
+}
+#Ordertable::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0, 0.6);
+}

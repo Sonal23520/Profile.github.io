@@ -1,0 +1,7 @@
+#service-page {
+  height: 100vh;
+  background: rgba(229, 255, 0, 0.1);
+  backdrop-filter: blur(6px);
+  top: 100%;
+  transition: all 0.5s ease;
+}

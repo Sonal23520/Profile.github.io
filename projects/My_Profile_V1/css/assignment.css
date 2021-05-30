@@ -1,0 +1,140 @@
+.assignment {
+  /* border: 1px solid red; */
+  /* height: 80vh; */
+  overflow: hidden;
+}
+.assignment::before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: -60%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(226, 10, 10, 0.6);
+  transform: rotate(-120deg);
+  -webkit-transform: rotate(-120deg);
+  -moz-transform: rotate(-120deg);
+  -ms-transform: rotate(-120deg);
+  -o-transform: rotate(-120deg);
+  height: 150%;
+}
+.assignment-text {
+  font-size: 2.4rem;
+  font-family: 'Sansita', sans-serif;
+  /* position: absolute; */
+  margin: 4px;
+  /* left: 50%;
+  transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%); */
+  color: rgb(58, 58, 58);
+}
+.assignment-all {
+  /* position: absolute; */
+  width: 96%;
+  height: 84%;
+  /* border: 1px solid red; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); */
+  display: flex;
+  /* backdrop-filter: blur(4px); */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.assignment-all > div:nth-child(1),
+.assignment-all > div:nth-child(6) {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.assignment-all > div:nth-child(1) {
+  background: url(/img/icons8-left-64.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.assignment-all > div:nth-child(6) {
+  background: url(/img/icons8-right-64.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.assignment-all > div:nth-child(1):hover,
+.assignment-all > div:nth-child(6):hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.ass {
+  height: 76%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(6px);
+  box-shadow: 2px 2px 10px 0px rgb(88, 88, 88, 0.6);
+  background: hsl(0, 0%, 100%, 0.6);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.ass > div {
+  width: 100%;
+  height: 86%;
+  /*border: 1px solid rgb(255, 0, 0);
+  */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.ass > div {
+  background: url(../img/depositphotos_137922610-stock-photo-business-team-working.jpg);
+  background-size: cover;
+  background-position: -80px;
+  background-repeat: no-repeat;
+}
+.ass > h2 {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(46, 46, 46);
+  margin-bottom: 12px;
+}
+.ass:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}

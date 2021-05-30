@@ -1,0 +1,44 @@
+#customer {
+  height: 100vh;
+  /* border: 1px solid rgb(238, 255, 0); */
+}
+#customerdetails {
+  /* border: 1px solid red; */
+  width: 98%;
+  background: white;
+  border-radius: 10px;
+}
+#customer input {
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid gray;
+  box-shadow: none;
+  font-size: 16px;
+}
+#customer button:nth-child(2) {
+  right: 0;
+  top: 0;
+}
+#CustomerButtons > div > button {
+  width: 100px;
+}
+/* //////////table///////// */
+#Customertable {
+  border-radius: 10px;
+  width: 98%;
+  background: white;
+  height: 56vh;
+}
+#Customertable::-webkit-scrollbar {
+  border-radius: 6px;
+  width: 8px;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+#Customertable::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: gray;
+}
+#Customertable::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0, 0.6);
+}

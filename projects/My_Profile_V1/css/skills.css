@@ -1,0 +1,251 @@
+.skills {
+  /* border: 1px solid red; */
+  /* height: 80vh; */
+  overflow: hidden;
+}
+.skills::before {
+  z-index: -1;
+  content: ' ';
+  position: absolute;
+  background: rgb(38, 222, 129, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 130%;
+  right: -60%;
+  transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+}
+.skills-text {
+  font-size: 2.4rem;
+  font-family: 'Sansita', sans-serif;
+  /* position: absolute; */
+  margin: 4px;
+  /* left: 50%; */
+  /* transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  -o-transform: translate(-50%, 0%); */
+  color: rgb(58, 58, 58);
+}
+.skill_all {
+  /* position: absolute; */
+  width: 96%;
+  height: 88%;
+  /*border: 1px solid red;
+  */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); */
+  display: flex;
+  backdrop-filter: blur(4px);
+  z-index: -1;
+  box-shadow: 2px 2px 10px 0px rgb(88, 88, 88, 0.6);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.skill_all > div {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.technical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.technical > div {
+  /* border: 1px solid red; */
+  width: 96%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.java,
+.communication {
+  margin-top: 20px;
+}
+.sql {
+  margin-bottom: 20px;
+}
+.java > div:nth-child(1),
+.html > div:nth-child(1),
+.css > div:nth-child(1),
+.javascript > div:nth-child(1),
+.python > div:nth-child(1),
+.sql > div:nth-child(1) {
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 60px;
+}
+.progressbar-body {
+  /*border: 1px solid red;
+  */
+  width: 86%;
+  height: 40%;
+  background: rgb(85, 85, 85, 0.6);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.java-progressbar-value,
+.html-progressbar-value,
+.css-progressbar-value,
+.javascript-progressbar-value,
+.python-progressbar-value,
+.sql-progressbar-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.java > div:nth-child(1) {
+  background: url(../img/skills/Java-icon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.java-progressbar-value {
+  background: #6f95ae;
+  width: 60%;
+}
+.html > div:nth-child(1) {
+  background: url(../img/skills/iconfinder_badge-html-5_317755.png);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.html-progressbar-value {
+  width: 90%;
+  background: #f16529;
+}
+.css > div:nth-child(1) {
+  background: url(../img/skills/iconfinder_badge-css-3_317756.png);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.css-progressbar-value {
+  width: 80%;
+  background: #4c81be;
+}
+.javascript > div:nth-child(1) {
+  background: url(../img/skills/javascript.png);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.javascript-progressbar-value {
+  width: 50%;
+  background: #d6ba32;
+}
+.python > div:nth-child(1) {
+  background: url(../img/skills/iconfinder_267_Python_logo_4375050.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.python-progressbar-value {
+  width: 70%;
+  background: #347ab4;
+}
+.sql > div:nth-child(1) {
+  background: url(../img/skills/iconfinder_icon-89-document-file-sql_315887.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sql-progressbar-value {
+  width: 65%;
+  background: #157efb;
+}
+/* ////////////////////////////////////////////////////////// */
+.soft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* /////////////////// */
+  justify-content: baseline;
+  /* //////////////////////// */
+}
+/* //////////////////Extra//////////// */
+.soft > div:nth-child(2) {
+  margin-top: 18px;
+}
+/* //////////////////////////////////////// */
+.soft > div {
+  width: 96%;
+  height: 60px;
+  /* border: 1px solid red;  */
+}
+.communication > h1,
+.language > h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: rgb(49, 49, 49);
+}
+.communication,
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.communication-body,
+.language-body {
+  width: 74%;
+  height: 40%;
+  background: rgb(85, 85, 85, 0.6);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.communication-value,
+.language-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.communication-value {
+  width: 60%;
+  background: #fc5c65;
+}
+.language-value {
+  width: 70%;
+  background: #4b6584;
+}

@@ -1,0 +1,33 @@
+#my_email {
+  color: black;
+}
+#interested,#social {
+  text-align: center;
+  background: rgba(41, 128, 185, 0.2);
+}
+.interest_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.interest_margin{
+    margin: 0;
+}
+#interested_info h6{
+    font-size: 14px;
+}
+#social_info h2 i{
+    font-size: 34px;
+}
+#social{
+    background: rgba(44, 62, 80,0.2);
+
+}
+/*#social_info div:nth-child(1) div,#social_info div:nth-child(2) div{*/
+/*    border: 1px solid gray;*/
+/*    border-radius: 20px;*/
+/*    width: 60px;*/
+/*    border:2px solid rgba(127, 140, 141,1.0);*/
+/*}*/
+

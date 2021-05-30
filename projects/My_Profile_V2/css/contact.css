@@ -1,0 +1,7 @@
+#contact-page {
+  height: 100vh;
+  background: rgba(204, 0, 255, 0.1);
+  backdrop-filter: blur(6px);
+  bottom: 100%;
+  transition: all 0.5s ease;
+}

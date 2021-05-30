@@ -1,0 +1,7 @@
+#assignment-page {
+  height: 100vh;
+  background: rgba(0, 60, 255, 0.1);
+  backdrop-filter: blur(6px);
+  top: 100%;
+  transition: all 0.5s ease;
+}
