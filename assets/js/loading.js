@@ -1,5 +1,6 @@
-console.log("sonalsithara")
-$(window).load(function() {
-    // Animate loader off screen
-    $("#loading").fadeOut("slow");
-});
+var loader = $(".loader")
+window.addEventListener("load", vanish);
+function vanish() {
+    $(loader).addClass("disppear");
+}
+
