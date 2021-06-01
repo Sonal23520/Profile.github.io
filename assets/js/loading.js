@@ -3,4 +3,3 @@ window.addEventListener("load", vanish);
 function vanish() {
     $(loader).addClass("disppear");
 }
-
