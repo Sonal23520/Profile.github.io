@@ -155,3 +155,41 @@ svg {
 .skillicon h4 i{
     font-weight: normal;
 }
+
+/*//////////////////////////////////*/
+
+.skillanimaion{
+    animation: progressSkill 2s ease-out;
+}
+
+@keyframes progressSkill {
+    0%{
+    }
+    50%{
+        stroke-dashoffset: 370;
+    }
+    100%{
+    }
+}
+
+.textskillanimaion{
+    animation: testSkill 2s ease-out;
+}
+@keyframes testSkill {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
