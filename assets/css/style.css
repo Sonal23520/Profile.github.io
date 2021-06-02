@@ -247,6 +247,11 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  /*////////////////*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-mobile a {
