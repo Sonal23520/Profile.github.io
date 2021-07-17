@@ -40,13 +40,13 @@ svg {
 }
 .meter-4 {
     stroke-dasharray: 370;
-    stroke-dashoffset: 246;
+    stroke-dashoffset: 220;
     stroke: #e74c3c;
     animation: progress-1 1s ease-out;
 }
 .meter-5 {
     stroke-dasharray: 370;
-    stroke-dashoffset: 210;
+    stroke-dashoffset: 180;
     stroke: #0984e3;
     animation: progress-1 1s ease-out;
 }
